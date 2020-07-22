@@ -30,12 +30,13 @@
         }).addTo(mymap);
 
         (function () {
-          var targetUrl = 'https://middleware.vanguardatech.com/api/search/retorno_posicoes/?format=json'
-          const fetchPromise = fetch (targetUrl);
+          var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+          targetUrl = 'https://middleware.vanguardatech.com/api/search/retorno_posicoes/?format=json'
+          const fetchPromise = fetch (proxyUrl + targetUrl);
           result = fetchPromise.then (response => { 
             return response.json (); 
         }).then (data => {
-         console.log(data);
+            console.log(data);
      }).catch(e => {
          alert(
             "O mapa não será marcado automaticamente\n"+
