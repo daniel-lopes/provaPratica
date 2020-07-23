@@ -11,22 +11,22 @@
          crossorigin=""/>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <style type="text/css">
-         #mapid { 
-         height: 100vh;
-         }
-         #form {
-         position: absolute;
-         top: 73px;
-         z-index: 1000;
-         left: 10px;
-         background: rgb(23 22 22 / 84%);
-         color: white;
-         padding: 15px;
-         border-radius: 10px;
-         }
-         .text-muted {
-         color: #bdbebf!important;
-         }
+        #mapid { 
+            height: 100vh;
+        }
+        #form {
+            position: absolute;
+            top: 73px;
+            z-index: 1000;
+            left: 10px;
+            background: rgb(23 22 22 / 84%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .text-muted {
+            color: #bdbebf!important;
+        }
       </style>
       <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
